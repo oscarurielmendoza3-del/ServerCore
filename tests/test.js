@@ -1,11 +1,11 @@
 /// @ts-check
 
-import ServerCore, { Logger, Debug, Utilities } from "../build/ServerCore.js";
+import ServerCore, { Logger, Utilities } from "../build/ServerCore.js";
 import "./debug.js";
 import "./utilities.js";
 
 /* | ENABLING ALL THE SERVER CORE LOGS IN CONSOLE | */
-Debug.showAll = true;
+Logger.Debug.showAll = true;
 /* | CREATING DEBUG INSTANCE TO THE TESTS | */
 const debug = new Logger({ prefix: '[TEST]' });
 
